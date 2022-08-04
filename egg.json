@@ -1,0 +1,26 @@
+{
+  "$schema": "https://x.nest.land/eggs@0.3.10/src/schema.json",
+  "name": "deno-cricket-cli",
+  "entry": "./main.ts",
+  "description": "Live Cricket Score CLI - Get Live Cricket Score Update on Terminal and CMD",
+  "homepage": "https://github.com/mskian/deno-cricket-cli",
+  "version": "0.0.1",
+  "releaseType": null,
+  "unstable": false,
+  "unlisted": false,
+  "files": [
+    "README.md"
+  ],
+  "ignore": [
+    ".git",
+    ".github",
+    "LICENSE",
+    "deno.json",
+    ".vscode",
+    ".gitignore"
+  ],
+  "checkFormat": "deno fmt",
+  "checkTests": false,
+  "checkInstallation": false,
+  "check": true
+}

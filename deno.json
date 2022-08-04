@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "live": "deno run --allow-net --allow-read main.ts -l",
+    "match": "deno run --allow-net --allow-read main.ts -m",
+    "help": "deno run --allow-net --allow-read main.ts -h"
+  }
+}
