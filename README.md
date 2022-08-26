@@ -91,9 +91,9 @@ deno run --allow-net https://deno.land/x/cricket/main.ts -h
 ```
 
 ```sh
-deno run --allow-net https://x.nest.land/deno-cricket-cli@0.0.1/main.ts -l
-deno run --allow-net https://x.nest.land/deno-cricket-cli@0.0.1/main.ts -m 123456
-deno run --allow-net https://x.nest.land/deno-cricket-clii@0.0.1/main.ts -h
+deno run --allow-net https://x.nest.land/deno-cricket-cli@0.0.2/main.ts -l
+deno run --allow-net https://x.nest.land/deno-cricket-cli@0.0.2/main.ts -m 123456
+deno run --allow-net https://x.nest.land/deno-cricket-clii@0.0.2/main.ts -h
 ```
 
 ## Credits
