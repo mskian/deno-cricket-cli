@@ -6,12 +6,12 @@ import {
   brightYellow,
   gray,
   red,
-} from "https://deno.land/std@0.150.0/fmt/colors.ts";
+} from "https://deno.land/std@0.153.0/fmt/colors.ts";
 import { wait } from "https://deno.land/x/wait@0.1.12/mod.ts";
 import { Command } from "https://deno.land/x/cliffy@v0.24.3/command/mod.ts";
 
 // deno-lint-ignore no-inferrable-types
-const BASE_URL: string = "https://cricket-api.vercel.app/";
+const BASE_URL: string = "https://criscore.deno.dev/";
 //const parsedArgs = parse(args);
 const pre = brightGreen(bold("›"));
 
@@ -123,7 +123,7 @@ Live Cricket Score CLI - Get Live Cricket Score Update on your Terminal and CMD\
         const getMatchNumber = match;
         if (getMatchNumber) {
           const res = await fetch(
-            `${BASE_URL}score?url=https://m.cricbuzz.com/live-cricket-scores/${getMatchNumber}`,
+            `${BASE_URL}match/${getMatchNumber}`,
           );
           const data = await res.json();
           if (data.current !== "Data Not Found") {
