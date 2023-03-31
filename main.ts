@@ -4,11 +4,10 @@ import {
   brightGreen,
   brightMagenta,
   brightYellow,
-  gray,
   red,
-} from "https://deno.land/std@0.153.0/fmt/colors.ts";
+} from "https://deno.land/std@0.181.0/fmt/colors.ts";
 import { wait } from "https://deno.land/x/wait@0.1.12/mod.ts";
-import { Command } from "https://deno.land/x/cliffy@v0.24.3/command/mod.ts";
+import { Command } from "https://deno.land/x/cliffy@v0.25.7/command/mod.ts";
 
 // deno-lint-ignore no-inferrable-types
 const BASE_URL: string = "https://criscore.deno.dev/";
@@ -20,7 +19,7 @@ await new Command()
   .description(
     "Live Cricket Score CLI - Get Live Cricket Score Update on your Terminal and CMD.",
   )
-  .version("v0.0.1")
+  .version("v0.0.3")
   .meta("deno", Deno.version.deno)
   .meta("v8", Deno.version.v8)
   .meta("typescript", Deno.version.typescript)
@@ -35,10 +34,10 @@ await new Command()
       this.showHelp();
       return;
     }
-    console.log(gray(bold(`+-+-+-+-+-+-+-+ +-+-+-+-+-+
+    console.log(brightMagenta(bold(`+-+-+-+-+-+-+-+ +-+-+-+-+-+
 |C|r|i|c|k|e|t| |S|c|o|r|e|
 +-+-+-+-+-+-+-+ +-+-+-+-+-+                                           
-Live Cricket Score CLI - Get Live Cricket Score Update on your Terminal and CMD\nCricket Score API - https://github.com/mskian/cricket-api-nodejs\nBuild and Developed by Santhosh Veer`)));
+Live Cricket Score CLI - Get Live Cricket Score Update on your Terminal and CMD\nCricket Score API - https://github.com/mskian/deno-cricket-api\nBuild and Developed by Santhosh Veer`)));
   })
   .option("-l, --live", "Get Current Live Cricket Match Score", {
     standalone: true,

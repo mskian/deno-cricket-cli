@@ -4,7 +4,7 @@
   "entry": "./main.ts",
   "description": "Live Cricket Score CLI - Get Live Cricket Score Update on Terminal and CMD",
   "homepage": "https://github.com/mskian/deno-cricket-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "releaseType": null,
   "unstable": false,
   "unlisted": false,
