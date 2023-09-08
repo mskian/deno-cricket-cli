@@ -99,8 +99,8 @@ deno run --allow-net https://x.nest.land/deno-cricket-clii@0.0.3/main.ts -h
 ## Credits
 
 - Build CLI Tool with Deno and Cliffy - <https://cliffy.io/>
-- Cricket API (Deno) - <https://github.com/mskian/deno-cricket-api>
-- Cricket API (Node JS) - <https://github.com/mskian/cricket-api-nodejs>
+- Cricket API (Deno) - <https://github.com/sanwebinfo/deno-cricket-api>
+- Cricket API (Node JS) - <https://github.com/sanwebinfo/cricket-api-nodejs>
 - Cricket CLI Node.js - <https://github.com/mskian/cricket-cli>
 
 ## LICENSE
