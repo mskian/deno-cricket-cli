@@ -37,7 +37,7 @@ await new Command()
     console.log(brightMagenta(bold(`+-+-+-+-+-+-+-+ +-+-+-+-+-+
 |C|r|i|c|k|e|t| |S|c|o|r|e|
 +-+-+-+-+-+-+-+ +-+-+-+-+-+                                           
-Live Cricket Score CLI - Get Live Cricket Score Update on your Terminal and CMD\nCricket Score API - https://github.com/mskian/deno-cricket-api\nBuild and Developed by Santhosh Veer`)));
+Live Cricket Score CLI - Get Live Cricket Score Update on your Terminal and CMD\nCricket Score API - https://github.com/sanwebinfo/deno-cricket-api\nBuild and Developed by Santhosh Veer`)));
   })
   .option("-l, --live", "Get Current Live Cricket Match Score", {
     standalone: true,
