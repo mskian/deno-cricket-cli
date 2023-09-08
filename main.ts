@@ -10,7 +10,7 @@ import { wait } from "https://deno.land/x/wait@0.1.12/mod.ts";
 import { Command } from "https://deno.land/x/cliffy@v0.25.7/command/mod.ts";
 
 // deno-lint-ignore no-inferrable-types
-const BASE_URL: string = "https://criscore.deno.dev/";
+const BASE_URL: string = "https://cricketapi.deno.dev/";
 //const parsedArgs = parse(args);
 const pre = brightGreen(bold("›"));
 
